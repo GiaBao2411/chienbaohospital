@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+.bv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: white;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.title {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1d1d64;
+}
+
+.title .highlight {
+    color: #e63946;
+}
+
+.title .slogan {
+    font-size: 14px;
+    color: #0077cc;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+}
+
+/* PHẦN LOGIN */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/img/logodangnhap.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* HỘP LOGIN */
+.login-box {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #008080;
+}
+
+label {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006666;
+}

@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    height: 100;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .bv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: white;
+    }
+
+    .logo img {
+    height: 100px;
+    }
+
+    .title {
+    text-align: center;
+    flex-grow: 1;
+    }
+
+    .title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1d1d64;
+    }
+
+    .title .highlight {
+    color: #e63946; /* màu đỏ Sài Gòn */
+    }
+
+    .title .slogan {
+    font-size: 14px;
+    color: #0077cc;
+    font-weight: bold;
+    margin-top: 5px;
+    }
+
+    .social {
+    display: flex;
+    gap: 10px;
+    }
+
+    .social img {
+    width: 32px;
+    height: 32px;
+    }
+        
+    h2 {
+      text-align: center;
+      color: #008080;
+    }
+
+    .departments {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .dept-card {
+      background-color: white;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .dept-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .dept-card .content {
+      padding: 15px;
+    }
+
+    .dept-card h3 {
+      margin: 0;
+      color: #008080;
+    }
+
+    .dept-card small {
+      color: gray;
+      display: block;
+      margin-top: 5px;
+      font-style: italic;
+    }
+
+    .dept-card p {
+      margin-top: 10px;
+    }

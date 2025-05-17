@@ -1,0 +1,73 @@
+footer {
+    background-color: #005662;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  /* chỉnh nếu muốn các khối trên cùng 1 hàng */
+    padding: 50px 10%;        /* có thể giảm để tránh bị quá thu hẹp nội dung */
+    gap: 20px;  
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.footer-left img {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-top: -5px;   /* (tuỳ ý) giúp cân chỉnh tốt hơn */
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.footer-center {
+    text-align: left;
+}
+.footer-center p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.footer-right {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer-right a {
+    display: flex;              
+    align-items: center; 
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+}
+
+.footer-right a > i {
+    width: 30px;                 
+    text-align: center;          
+    margin-right: 3px; 
+    padding-right: 0px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+
+.footer-right img {
+    width: 30px;
+    height: 30px;
+}
+.copyright {
+    background-color: #003d45;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+}

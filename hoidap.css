@@ -1,0 +1,111 @@
+    html, body {
+    margin: 0;
+    height: 100;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .bv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: white;
+    }
+
+    .logo img {
+    height: 100px;
+    }
+
+    .title {
+    text-align: center;
+    flex-grow: 1;
+    }
+
+    .title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1d1d64;
+    }
+
+    .title .highlight {
+    color: #e63946; /* màu đỏ Sài Gòn */
+    }
+
+    .title .slogan {
+    font-size: 14px;
+    color: #0077cc;
+    font-weight: bold;
+    margin-top: 5px;
+    }
+
+    .social {
+    display: flex;
+    gap: 10px;
+    }
+
+    .social img {
+    width: 32px;
+    height: 32px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #008080;
+    }
+
+    form {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px #ccc;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      background-color: #008080;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #006666;
+    }
+
+    .faq {
+      margin-top: 30px;
+    }
+
+    .faq-item {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+    }
+
+    .faq-item h4 {
+      margin: 0 0 10px;
+      color: #006666;
+    }

@@ -1,0 +1,329 @@
+html, body {
+  margin: 0;
+  height: 100;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Header */ 
+.bv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.Logo img {
+  height: 100px;
+}
+
+.title {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #1d1d64;
+}
+
+.title .highlight {
+  color: #e63946; /* màu đỏ Sài Gòn */
+}
+
+.title .slogan {
+  font-size: 14px;
+  color: #0077cc;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.social {
+  display: flex;
+  gap: 10px;
+}
+
+.social img {
+  width: 32px;
+  height: 32px;
+}
+
+nav.menu {
+  background-color: #006666;
+  padding: 10px 0;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav.menu li a:hover {
+  text-decoration: underline;
+}
+
+main{
+  flex: 1;
+}
+
+footer {
+      background-color: #008080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+}
+
+/***********************************************************************************/
+.info-section {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 40px 0;
+  background: white;
+}
+
+.info-card {
+  position: relative;
+  width: 300px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Lớp phủ tối */
+  color: white;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.overlay p {
+  font-size: 14px;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.overlay a {
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  align-self: start;
+  transition: background-color 0.3s;
+}
+
+.overlay a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+/***********************************************************************************/
+.news-section {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+}
+
+.news-header h2 {
+  font-size: 28px;
+  color: #007bdb;
+}
+
+.news-header a {
+  color: #007bdb;
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+}
+
+.news-header a:hover {
+  border-bottom: 1px solid #007bdb;
+}
+
+.news-container {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.news-item {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.news-item:hover {
+  transform: translateY(-4px);
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.news-content {
+  padding: 16px;
+}
+
+.news-content h3 {
+  font-size: 16px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.news-content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.news-content .date {
+  font-size: 13px;
+  color: #007bdb;
+}
+
+.news-item.large {
+  flex: 1 1 55%;
+}
+
+.news-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1 1 40%;
+}
+
+.news-item.small {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.news-item .img-small {
+  width: 45%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row !important;
+}
+
+/***********************************************************************************/
+
+
+.hospital-section {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.top-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.action-item {
+  background-color: white;
+  border-bottom: 4px solid #007bff;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.action-item:hover {
+  transform: translateY(-5px);
+}
+
+.action-item .icon {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.hospital-intro h2 {
+  color: #007bff;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hospital-intro p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.hospital-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.stat {
+  width: 120px;
+}
+
+.stat i {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.stat h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #333;
+}
